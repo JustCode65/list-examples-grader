@@ -26,7 +26,7 @@ FAILURES=`grep -c FAILURES!!! junit-output.txt`
 ERROR=`grep -c error junit-output.txt`
 
 
-if [ $FAILURES -eq 0] && [$ERROR -eq 0]
+if [ $FAILURES -eq 0 ] && [ $ERROR -eq 0 ] 
 then
   echo 'you passed'
 else
